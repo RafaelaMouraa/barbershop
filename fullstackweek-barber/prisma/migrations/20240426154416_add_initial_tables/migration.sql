@@ -16,7 +16,6 @@ CREATE TABLE "Barbershop" (
     CONSTRAINT "Barbershop_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
 CREATE TABLE "Service" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
@@ -26,7 +25,6 @@ CREATE TABLE "Service" (
     "imageUrl" TEXT NOT NULL,
 
     CONSTRAINT "Service_pkey" PRIMARY KEY ("id")
-);
 
 -- CreateTable
 CREATE TABLE "Booking" (
