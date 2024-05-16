@@ -25,6 +25,7 @@ CREATE TABLE "Service" (
     "imageUrl" TEXT NOT NULL,
 
     CONSTRAINT "Service_pkey" PRIMARY KEY ("id")
+);
 
 -- CreateTable
 CREATE TABLE "Booking" (
